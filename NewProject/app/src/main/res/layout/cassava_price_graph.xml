@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background">
+
+    <RelativeLayout
+        android:id="@+id/component"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/top"
+            android:layout_width="280dp"
+            android:layout_height="140dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/trans_roundcornet"
+            android:layout_centerHorizontal="true"
+            />
+
+        <TextView
+            android:id="@+id/homesubtext1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/athitiregular"
+            android:textColor="#000"
+            android:layout_centerHorizontal="true"
+            android:text="แนวโน้มราคา รายการสินค้า"
+            android:textSize="15dp"
+            android:layout_marginTop="22dp"
+            />
+        <TextView
+            android:id="@+id/hometext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/athitiregular"
+            android:textColor="#000"
+            android:textSize="30dp"
+            android:text="มันสำปะหลัง"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="35dp"
+            />
+        <TextView
+            android:id="@+id/homeprice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/athitiregular"
+            android:textColor="#94C74E"
+            android:textSize="50dp"
+            android:text="1.60"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="56dp"
+            />
+        <TextView
+            android:id="@+id/homesubtext2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="หน่วย บาท/กก."
+            android:fontFamily="@font/athitiregular"
+            android:textColor="#000"
+            android:textSize="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="130dp"
+            />
+        <TextView
+            android:id="@+id/textDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="คาดการ ณ วันที่ 22 มีนาคม 2561"
+            android:fontFamily="@font/athitiregular"
+            android:textColor="#000"
+            android:textSize="15dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/top"
+            />
+
+    </RelativeLayout>
+
+    <com.anychart.anychart.AnyChartView
+        android:id="@+id/any_chart_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/component"
+        />
+
+
+
+
+</RelativeLayout>

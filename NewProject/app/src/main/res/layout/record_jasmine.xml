@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_record_graph"
+    tools:context="com.example.msiraider.newproject.Price.ViewHistory.RecordActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="บันทึกราคาข้าวหอมมะลิ"
+                android:textColor="#ffffff"
+                android:gravity="center"
+                android:textSize="30sp"
+                android:fontFamily="@font/sriracharegular"/>
+        </Toolbar>
+
+        <Button
+            android:id="@+id/record_jasmine_3m"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:layout_marginBottom="10sp"
+            android:background="#8fffffff"
+            android:text="สามเดือน"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:fontFamily="@font/athitiregular"
+            />
+
+        <Button
+            android:id="@+id/record_jasmine_9m"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:layout_marginBottom="10sp"
+            android:background="#8fffffff"
+            android:text="เก้าเดือน"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:fontFamily="@font/athitiregular"
+            />
+
+        <Button
+            android:id="@+id/record_jasmine_2y"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:layout_marginBottom="10sp"
+            android:background="#8fffffff"
+            android:text="สองปี"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:fontFamily="@font/athitiregular"
+            />
+
+        <Button
+            android:id="@+id/record_jasmine_10y"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:layout_marginBottom="10sp"
+            android:background="#8fffffff"
+            android:text="ห้าปี"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:fontFamily="@font/athitiregular"
+            />
+
+    </LinearLayout>
+
+</ScrollView>

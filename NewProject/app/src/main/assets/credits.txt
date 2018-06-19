@@ -1,0 +1,29 @@
+    PlantPhet แอปพลิเคชันที่ตอบโจทย์กับเกษตรยุคThailand4.0 ทั้งในด้านการให้ข้อมูลดทางด้านราคาการขายรวมถึงการรวมสถิติของราค,การให้ข้อมูลด้านปัจจัยทางภูมิศาสาตร์สำหรับการเพาะปลูก
+    เพื่อช่วยให้เกษตรวิเคารห์และตัดสนใจการปลูกบนพื้นฐานของข้อมูลที่หน้าเชื่อถือ รวมถึงการเพิ่มชองทางการขายให้กับเกษตรกรการขายผลผลิต
+
+ขอขอบคุณ
+Icon made by Freepik from www.flaticon.com
+[Organization]
+https://www.flaticon.com/free-icon/organization_306471
+[Growth]
+https://www.flaticon.com/free-icon/growth_306435
+[Chat]
+https://www.flaticon.com/free-icon/chat_305104
+[Chat]
+https://www.flaticon.com/free-icon/chat_309666
+[Map]
+https://www.flaticon.com/free-icon/map_308864
+[Placeholder]
+https://www.flaticon.com/free-icon/placeholder_197735
+[Businessman]
+https://www.flaticon.com/free-icon/businessman_206853
+[Business Handshake]
+https://www.flaticon.com/free-icon/hand-shake_305091
+[Analytics]
+https://www.flaticon.com/free-icon/analytics_262814
+[Corn]
+https://www.flaticon.com/free-icon/corn_836573
+[Rice]
+https://www.flaticon.com/free-icon/rice_616428
+[Potato]
+https://www.flaticon.com/free-icon/potato_579100

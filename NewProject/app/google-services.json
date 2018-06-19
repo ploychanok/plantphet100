@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "365047946266",
+    "firebase_url": "https://plantphet.firebaseio.com",
+    "project_id": "plantphet",
+    "storage_bucket": "plantphet.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:365047946266:android:60441976438f65d8",
+        "android_client_info": {
+          "package_name": "com.example.msiraider.newproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "365047946266-vsqu7898m8hkqmosf2120cf4cd2rvfr6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVes3yimUs8nnAm98W0wqPll4WG2zV2V4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:365047946266:android:74dd964a80dffcf0",
+        "android_client_info": {
+          "package_name": "com.example.ploychanok.subscriber"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "365047946266-vsqu7898m8hkqmosf2120cf4cd2rvfr6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVes3yimUs8nnAm98W0wqPll4WG2zV2V4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

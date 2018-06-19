@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10sp"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="สมัครสมาชิก"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:fontFamily="@font/athitiregular"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ข้อมูลสำหรับใช้เข้าระบบ"
+        android:fontFamily="@font/athitiregular"
+        />
+    <EditText
+        android:id="@+id/inputEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="อีเมล"
+        android:fontFamily="@font/athitiregular"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="รหัสผ่าน"
+        android:fontFamily="@font/athitiregular"
+        android:id="@+id/inputPassword"/>
+
+    <TextView
+        android:layout_marginTop="15sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ข้อมูลส่วนตัว"
+        android:fontFamily="@font/athitiregular"/>
+
+    <EditText
+        android:id="@+id/inputFirstname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ชื่อ"
+        android:inputType="text"
+        android:fontFamily="@font/athitiregular"/>
+
+    <EditText
+        android:id="@+id/inputLastname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="นามสกุล"
+        android:inputType="text"
+        android:fontFamily="@font/athitiregular"
+        />
+
+    <TextView
+        android:layout_marginTop="15sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ที่อยู่"
+        android:fontFamily="@font/athitiregular"/>
+
+    <EditText
+        android:id="@+id/inputAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="บ้านเลขที่/หมู่/ตำบล"
+        android:fontFamily="@font/athitiregular"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/inputDistrict"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="อำเภอ"
+        android:inputType="text"
+        android:fontFamily="@font/athitiregular"/>
+
+    <EditText
+        android:id="@+id/inputZipcode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="รหัสไปรษณีย์"
+        android:ems="5"
+        android:fontFamily="@font/athitiregular"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/inputProvince"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="จังหวัด"
+        android:fontFamily="@font/athitiregular"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/inputPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone"
+        android:hint="เบอร์โทรศัพท์"
+        android:fontFamily="@font/athitiregular"/>
+
+    <EditText
+        android:id="@+id/inputCompany"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ชื่อหน่วยงาน/บริษัท"
+        android:inputType="text"
+        android:fontFamily="@font/athitiregular"/>
+
+    <TextView
+        android:layout_marginTop="15sp"
+        android:id="@+id/company"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ประเภทธุรกิจ"
+        android:fontFamily="@font/athitiregular"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/company_private"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/athitiregular"
+            android:text="กิจการส่วนตัว"
+            />
+
+        <RadioButton
+            android:id="@+id/company_partnership"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/athitiregular"
+            android:text="ห้างหุ้นส่วน"/>
+
+        <RadioButton
+            android:id="@+id/company_company"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/athitiregular"
+            android:text="บริษัทจำกัด"/>
+    </RadioGroup>
+
+        <EditText
+            android:id="@+id/cropinterest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="สนใจสินค้าเกษตรพื้นที่ไหน"
+            android:inputType="text"
+            android:fontFamily="@font/athitiregular"/>
+
+        <EditText
+            android:id="@+id/textView24_interst"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="สนใจผลิตผลใด"
+            android:inputType="text"
+            android:fontFamily="@font/athitiregular"
+            />
+
+    <Button
+        android:id="@+id/btnSignup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="สมัคร"
+        android:fontFamily="@font/athitiregular"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginTop="20sp"
+        android:layout_marginBottom="20sp"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="20dp"
+        android:visibility="gone" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="20sp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/faqinvestor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FAQ for Investor"
+            android:textSize="26sp"
+            android:fontFamily="@font/athitiregular"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/why"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ทำไมต้องใช้เรา"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10sp"
+            android:fontFamily="@font/athitiregular"/>
+
+        <TextView
+            android:id="@+id/ans_why"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="เพิ่มโอกาสในการหาผลผลิตทางการเกษตรที่ตรงจุดและตอบโจทย์ความต้องการทางธุรกิจโดนแท้จริง"
+            android:textSize="18sp"
+            android:fontFamily="@font/athitiregular"/>
+
+
+        <TextView
+            android:id="@+id/How_regis_inves"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="สมัครสมาชิกอย่างไร"
+            android:layout_marginTop="10sp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/athitiregular"/>
+
+        <TextView
+            android:id="@+id/Ans_How_regis_inves"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="สมัครสมาชิกผ่านเมนูการสมัครสมาชิก พร้อมทั้งกรอกรายละเอียดตามช่องกรอกอย่างครบถ้วน"
+            android:textSize="18sp"
+            android:fontFamily="@font/athitiregular"/>
+
+        <TextView
+            android:id="@+id/freemium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="การทดลองใช้ฟรี"
+            android:layout_marginTop="10sp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/athitiregular"/>
+
+        <TextView
+            android:id="@+id/ans_freemium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ทดลองการใช้ฟรี 3 เดือน สำหรับการใช้งานค้นหาเกษตรกร  "
+            android:textSize="18sp"
+            android:fontFamily="@font/athitiregular"/>
+
+        <TextView
+            android:id="@+id/payment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="การจ่ายค่าบริการในการใช้งาน "
+            android:layout_marginTop="10sp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/athitiregular"/>
+
+        <TextView
+            android:id="@+id/ans_payment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="จะยังไม่มีการเก็บค่าใช้จ่ายใดๆ ในระยะพัฒนาแอปพลิเคชัน ทางผู้พัฒนาจะแจ้งให้ผู้ใช้ทราบเมื่อมีการเปลี่ยนแปลง"
+            android:textSize="18sp"
+            android:fontFamily="@font/athitiregular"/>
+
+        <TextView
+            android:id="@+id/suggest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="รายงานปัญหาและข้อเสนอแนะ"
+            android:layout_marginTop="10sp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/athitiregular"/>
+
+        <TextView
+            android:id="@+id/ans_suggest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ติดต่อผ่านเมนูติดต่อผู้พัฒนาผ่านทางในตัวแอปพลิเคชัน หรือให้ข้อเสนอแนะใน Google Play Store"
+            android:textSize="18sp"
+            android:fontFamily="@font/athitiregular"/>
+    </LinearLayout>
+
+</ScrollView>

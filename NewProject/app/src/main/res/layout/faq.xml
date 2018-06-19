@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20sp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="คำถามที่พบบ่อย"
+        android:textSize="26dp"
+        android:fontFamily="@font/athitisemibold"
+        android:gravity="center"
+        />
+
+
+    <TextView
+        android:id="@+id/why_farmer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ทำไมต้องใช้เรา"
+        android:textSize="18dp"
+        android:fontFamily="@font/athitiregular"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/Ans_farmer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="เพิ่มช่องทางการขายในการติดต่อกับนายทุน "
+        android:textSize="18dp"
+        android:fontFamily="@font/athitiregular"/>
+
+
+    <TextView
+        android:layout_marginTop="10sp"
+        android:id="@+id/How_regis_farmer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="สมัครสมาชิกอย่างไร"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/athitiregular"/>
+
+    <TextView
+        android:id="@+id/Ans_regis_farmer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ติดต่อโดยตรงกับทางผู้พัฒนา ทางโทรศัพท์หรืออีเมลเท่านั้น"
+        android:textSize="18dp"
+        android:fontFamily="@font/athitiregular"/>
+
+
+    <TextView
+        android:layout_marginTop="10sp"
+        android:id="@+id/contactdev_farmer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="การติดต่อการให้ข้อมูลแก่ผู้พัฒนา"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:fontFamily="@font/athitiregular"/>
+
+    <TextView
+        android:id="@+id/ans_contactdev_farmer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="เข้าเมนูติดต่อผู้พัฒนา ในหน้าแรกของแอปพลิเคชัน และกดเพื่อ ติดต่อโดยตรงกับผู้พัฒนาผ่านทางเบอร์โทรศัพท์หรือทางอีเมล์"
+        android:textSize="18dp"
+        android:fontFamily="@font/athitiregular"/>
+
+
+    <TextView
+        android:layout_marginTop="10sp"
+        android:id="@+id/problem_farmer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="รายงานปัญหาและข้อเสนอแนะ"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/athitiregular"/>
+
+    <TextView
+        android:id="@+id/ans_problem_farmer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ติดต่อผ่านเมนูติดต่อผู้พัฒนาผ่านทางในตัวแอปพลิเคชัน หรือให้ข้อเสนอแนะใน Google Play Store"
+        android:textSize="18sp"
+        android:fontFamily="@font/athitiregular"/>
+
+</LinearLayout>

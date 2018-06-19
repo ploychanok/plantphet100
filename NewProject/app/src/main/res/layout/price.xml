@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_price_graph"
+    tools:context="com.example.msiraider.newproject.Price.ViewHistory.RecordActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ราคาสินค้าเกษตร"
+                android:textColor="#ffffff"
+                android:gravity="center"
+                android:textSize="30sp"
+                android:fontFamily="@font/sriracharegular"/>
+        </Toolbar>
+
+        <TextView
+            android:id="@+id/datetime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ล่าสุด ณ วันที่ 5 เมษายน 2561"
+            android:gravity="center"
+            android:fontFamily="@font/athitiregular"
+            android:layout_marginBottom="10sp"
+            />
+
+            <Button
+                android:id="@+id/top"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:layout_marginBottom="10sp"
+                android:background="@drawable/button1"
+                android:text="มันสำปะหลัง"
+                android:textColor="#000000"
+                android:textSize="25sp"
+                android:fontFamily="@font/athitiregular"
+                />
+
+
+            <Button
+                android:id="@+id/buttonlist1"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:layout_marginBottom="10sp"
+                android:background="@drawable/button1"
+                android:text="ข้าวเหนียว"
+                android:textColor="#000000"
+                android:textSize="25sp"
+                android:fontFamily="@font/athitiregular"
+                />
+
+            <Button
+                android:id="@+id/buttonlist2"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:layout_marginBottom="10sp"
+                android:background="@drawable/button1"
+                android:text="ข้าวหอมมะลิ"
+                android:textColor="#000000"
+                android:textSize="25sp"
+                android:fontFamily="@font/athitiregular"
+                />
+
+            <Button
+                android:id="@+id/buttonlist3"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:layout_marginBottom="10sp"
+                android:background="@drawable/button1"
+                android:text="ข้าวโพด"
+                android:textColor="#000000"
+                android:textSize="25sp"
+                android:fontFamily="@font/athitiregular"
+                />
+
+    </LinearLayout>
+
+</ScrollView>

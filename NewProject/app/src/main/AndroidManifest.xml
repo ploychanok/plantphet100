@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.msiraider.newproject">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".HomeActivity" android:screenOrientation="locked">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Price.ViewHistory.RecordActivity" android:screenOrientation="locked"></activity>
+        <activity android:name=".Map.MapActivity" android:screenOrientation="locked"></activity>
+        <activity android:name=".Price.ViewHistory.ListRecord.ListRecordCassava" android:screenOrientation="locked"></activity>
+        <activity android:name=".Price.ViewHistory.ListRecord.ListRecordCorn" android:screenOrientation="locked"></activity>
+        <activity android:name=".Price.ViewHistory.ListRecord.ListRecordJasmine" android:screenOrientation="locked"></activity>
+        <activity android:name=".Price.ViewHistory.ListRecord.ListRecordSticky" android:screenOrientation="locked"></activity>
+        <activity android:name=".Price.ViewHistory.nineMonthRecord.nineMonthCassava" android:screenOrientation="locked"></activity>
+        <activity android:name=".Price.ViewHistory.nineMonthRecord.nineMonthCorn" android:screenOrientation="locked"></activity>
+        <activity android:name=".Price.ViewHistory.nineMonthRecord.nineMonthJasmine" android:screenOrientation="locked"></activity>
+        <activity android:name=".Price.ViewHistory.nineMonthRecord.nineMonthSticky" android:screenOrientation="locked"></activity>
+        <activity android:name=".Price.ViewHistory.tenYearRecord.tenYearCassava" android:screenOrientation="locked"></activity>
+        <activity android:name=".Price.ViewHistory.tenYearRecord.tenYearCorn" android:screenOrientation="locked"></activity>
+        <activity android:name=".Price.ViewHistory.tenYearRecord.tenYearJasmine" android:screenOrientation="locked"></activity>
+        <activity android:name=".Price.ViewHistory.tenYearRecord.tenYearSticky" android:screenOrientation="locked"></activity>
+        <activity android:name=".Price.ViewHistory.threeMonthRecord.threeMonthCassava" android:screenOrientation="locked"></activity>
+        <activity android:name=".Price.ViewHistory.threeMonthRecord.threeMonthCorn" android:screenOrientation="locked"></activity>
+        <activity android:name=".Price.ViewHistory.threeMonthRecord.threeMonthJasmine" android:screenOrientation="locked"></activity>
+        <activity android:name=".Price.ViewHistory.threeMonthRecord.threeMonthSticky" android:screenOrientation="locked"></activity>
+        <activity android:name=".Price.ViewHistory.twoYearRecord.twoYearCassava" android:screenOrientation="locked"></activity>
+        <activity android:name=".Price.ViewHistory.twoYearRecord.twoYearJasmine" android:screenOrientation="locked"></activity>
+        <activity android:name=".Price.ViewHistory.twoYearRecord.twoYearCorn" android:screenOrientation="locked"></activity>
+        <activity android:name=".Price.ViewHistory.twoYearRecord.twoYearSticky" android:screenOrientation="locked"></activity>
+
+        <activity android:name=".FAQ.FaqHomeActivity" android:screenOrientation="locked"></activity>
+        <activity android:name=".FAQ.UserManualActivity" android:screenOrientation="locked"></activity>
+        <activity android:name=".FAQ.FaqActivity" android:screenOrientation="locked"></activity>
+        <activity android:name=".FAQ.AboutActivity" android:screenOrientation="locked"></activity>
+        <activity android:name=".FAQ.ContactActivity" android:screenOrientation="locked"></activity>
+        <activity android:name=".Register.RegisterActivity" android:screenOrientation="locked"></activity>
+        <activity android:name=".Register.RegisFatmer" android:screenOrientation="locked" android:windowSoftInputMode="stateAlwaysHidden"></activity>
+        <activity android:name=".Price.Prediction.PreditionActivity" android:screenOrientation="locked"></activity>
+        <activity android:name=".Price.Prediction.Price.CassavaPrice" android:screenOrientation="locked"></activity>
+        <activity android:name=".Price.Prediction.Price.CornPrice" android:screenOrientation="locked"></activity>
+        <activity android:name=".Price.Prediction.Price.JasmineRice" android:screenOrientation="locked"></activity>
+        <activity android:name=".Price.Prediction.Price.StickyPrice" android:screenOrientation="locked"></activity>
+        <activity android:name=".Map.MapMenuActivity" android:screenOrientation="locked"></activity>
+
+
+    </application>
+
+</manifest>

@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">PlantPhet Subscriber</string>
+    <string name="email">Email</string>
+    <string name="minimun_password">รหัสของคุณสั้นเกินไป กรุณาใส่ใหม่อีกครั้ง</string>
+    <string name="auth_failed">เข้าสู่ระบบไม่สำเร็จ กรุณาลองใหม่อีกครั้ง</string>
+</resources>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".login">
+
+    <TextView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PlantPhet"
+        android:textSize="50dp"
+        android:fontFamily="@font/sriracharegular"
+        android:textColor="#fff"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:id="@+id/sublogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="65dp"
+        android:text="Subscriber"
+        android:fontFamily="@font/sriracharegular"
+        android:textColor="#fff"
+        android:textSize="25dp"
+        android:layout_marginBottom="10dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/price"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/ic_map"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="แผนที่การซื้อขาย"
+                android:fontFamily="@font/athitiregular"
+                android:textSize="18sp"
+                android:layout_marginBottom="15dp"
+                android:layout_gravity="center_horizontal"/>
+
+            <ImageButton
+                android:id="@+id/profile"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:background="@drawable/ic_businessman"
+                android:layout_margin="15dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="โปรไฟล์"
+                android:fontFamily="@font/athitiregular"
+                android:textSize="18sp"
+                android:layout_gravity="center_horizontal"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/map"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/ic_organization"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="เกษตรกรที่เข้าร่วม"
+                android:fontFamily="@font/athitiregular"
+                android:textSize="18sp"
+                android:layout_marginBottom="15dp"
+                android:layout_gravity="center_horizontal"/>
+
+            <ImageButton
+                android:id="@+id/fqa"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:background="@drawable/ic_chat_2"
+                android:layout_margin="15dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="คำถามที่พบบ่อย"
+                android:fontFamily="@font/athitiregular"
+                android:textSize="18sp"
+                android:layout_gravity="center_horizontal"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

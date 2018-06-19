@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="เกี่ยวกับผู้พัฒนา"
+            android:textSize="26dp"
+            android:fontFamily="@font/athitisemibold"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/Ans_farmer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="        พวกเรา 4 คน เป็นนักศึกษาระดับปริญญาตรีชั้นปีที่ 3 ได้จุดประกายการทำแอปพลิเคชัน PlantPhet นี้ จากการที่พวกเราเห็นปัญหาเกษตรกรซ้ำแล้วซ้ำเล่า ทั้งในหน้าข้าวหนังสือพิมพ์ อินเตอร์เน็ต  เกี่ยวกับการขายผลผลิตไม่ได้ราคา โดนกดราคา เป็นหนี้ หรือ โดนภัยพิบัติธรรมชาติจนผลผลิตที่สร้างไว้เสียให้  ประเทศไทยมักได้ฉายาว่าเป็นเมืองแห่งเกษตร หรือ อู่ข้าวอู่น้ำของโลก แต่ทำไมเกษตรไทยจึงยังมีความเป็นอยู่ที่ไม่ดีนัก พบกับปัญหาเหล่านี้ซ้ำแล้วซ้ำเหล่า พวกเราจึงอยากเป็นส่วนนึงในการช่วยแก้ไขปัญหาของเกษตรโดยการสร้างเครื่องมือทางด้านการให้ข้อมูลเกี่ยวกับสินค้าทางการเกษตร ก่อนการเพาะปลูก เพื่อที่เกษตรจะได้นำข้อมูลเหล่านี้มาวิเคาระห์และตัดสินใจก่อนการปลูก ได้ผ่านทางข้อมูลที่มีความน่าเชื่อถือ ซึ่งสิ่งนี้เป็นการช่วยเกษตรแก้ไขปัญหาการปลูกที่ขาดแหล่งข้อมูลในการสนับสนุน   ในส่วนของภาคผู้ซื้อสินค้าทางการเกษตรเรายังเห็นว่า ในหลายครั้งผู้ซื้อต้องหาสินค้าทางการเกษตรที่ตอบโจทย์ธุรกิจของตัวเอง ในเมื่อเรามีกลุ่มเกษตรกรที่ใช้Application ของเราอยู่แล้ว เราจึงสร้างแหล่งชุมชนที่ผู้ซื้อสามารถเลือกหาสินค้าผลิตผลทางการเกษตรที่ตอบโจทย์กับธุรกิจของตนเองได้ผ่านทางApplication ของเรา เป็นการเพิ่มช่องทางการขายให้กับเกษตร และ ช่องทางการซื้อให้กับผู้ซื้อ ช่วยให้ระบบเกิดความสมดุลตั้งแต่เกษตรเลือกผลิตบนพื้นฐานข้อมูลที่จับต้องได้ จนถึงกระบวนการซื้อ-ขายที่เกิดขึ้น "
+            android:textSize="18dp"
+            android:layout_margin="10sp"
+            android:fontFamily="@font/athitiregular"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:layout_margin="10sp"
+            android:fontFamily="@font/athitiregular"
+            android:text="        ผู้พัฒนาหวังว่าApplication PlantPhet นี้จะ เป็นส่วนนึงในการช่วยเกษตรไทย ให้ก้าวผ่านปัญหาการเพาะปลูกที่ขาดทุน โดยใช้วิถีทางตามแนวทางของThailand 4.0 และเรายังขอเป็นส่วนนึงในการพัฒนาเมืองไทยให้เติบโต อย่างก้าวไกล และ มั่นคง "/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_margin="10sp"
+            android:fontFamily="@font/athitiregular"
+            android:text="คณะผู้จัดทำ Application PlantPhet"
+            android:layout_gravity="right"
+            android:layout_marginBottom="20sp"/>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/title_aboutme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="เกี่ยวกับApplication"
+                android:textAlignment="center"
+                android:fontFamily="@font/athitiregular"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/content_aboutme"
+                android:fontFamily="@font/athitiregular"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14sp"
+                android:layout_marginTop="15sp"
+                android:layout_marginRight="14sp"
+                android:text="           Plantphet Application ที่ตอบโจทย์ธุรกิจทางด้านการเกษตร หรือ ผู้ที่ต้องการหาผลผลิตทางด้านการเกษตรที่ตรงจุดและตอบโจทย์กับธุรกิจ เพื่อใช้ประกอบในกระบวนการผลิต หรือ ใช้ในการประกอบกิจการ
+            ช่วยลดระยะเวลาการหาวัตถุดิบและลดต้นทุนที่เกิดขึ้น เพื่อการพัฒนาธุรกิจให้เติบโตอย่างยั่งยืนในยุค Thailand 4.0
+            "
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/title_spthank"
+                android:fontFamily="@font/athitiregular"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18sp"
+                android:layout_marginTop="8sp"
+                android:text="Special Thanks"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/content_spthank"
+                android:fontFamily="@font/athitiregular"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15sp"
+                android:layout_marginRight="15sp"
+                android:text="Icon made by Freepik from www.flaticon.com  [Organization - Free business icons](https://www.flaticon.com/free-icon/organization_306471)
+[Growth - Free business icons](https://www.flaticon.com/free-icon/growth_306435)
+[Chat - Free multimedia icons](https://www.flaticon.com/free-icon/chat_305104)
+[Chat - Free multimedia icons](https://www.flaticon.com/free-icon/chat_309666)
+[Map - Free interface icons](https://www.flaticon.com/free-icon/map_308864)
+[Placeholder - Free signs icons](https://www.flaticon.com/free-icon/placeholder_197735)
+[Businessman - Free social icons](https://www.flaticon.com/free-icon/businessman_206853)
+[Business Handshake - Free social icons](https://www.flaticon.com/free-icon/hand-shake_305091)
+[Analytics - Free social icons](https://www.flaticon.com/free-icon/analytics_262814)
+[Corn]https://www.flaticon.com/free-icon/corn_836573
+[Rice]https://www.flaticon.com/free-icon/rice_616428
+[Potato]https://www.flaticon.com/free-icon/potato_579100"
+
+                android:textSize="15sp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

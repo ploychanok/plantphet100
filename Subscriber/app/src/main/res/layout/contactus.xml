@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10sp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="คุณสามารติดต่อเราได้โดยตรง"
+            android:layout_marginLeft="30sp"
+            android:fontFamily="@font/athitiregular"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+    </Toolbar>
+
+    <LinearLayout
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="วิธีที่ 1"
+            android:fontFamily="@font/athitiregular"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+
+        <ImageButton
+            android:layout_width="80sp"
+            android:layout_height="80sp"
+            android:background="@drawable/ic_local_phone_black_24dp"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="โทรหาเรา : 089-493-4231"
+            android:fontFamily="@font/athitiregular"
+            android:textSize="20sp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_marginTop="15sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="วิธีที่ 2"
+            android:fontFamily="@font/athitiregular"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+
+        <ImageButton
+            android:layout_width="80sp"
+            android:layout_height="80sp"
+            android:background="@drawable/ic_mail_black_24dp"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="อีเมลเรา : admin@plantphet.io"
+            android:fontFamily="@font/athitiregular"
+            android:textSize="20sp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#000000"/>
+    </LinearLayout>
+
+</LinearLayout>
